@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+/* Navigation bar */
+#nav {
+    display: flex;
+    justify-content: flex-end;
+    height: 30px;
+    align-items: center;
+    background-color: rgba(0, 7, 3, 0.829);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+#nav h3 {
+
+    position: relative;
+    right: 300px;
+    color: white;
+}
+
+#nav .item2 {
+    display: flex;
+    justify-content: space-evenly;
+    width: 60%;
+}
+
+#nav .item2 a {
+
+    text-decoration: none;
+    color: white;
+}
+
+/* Home Section  */
+#home {
+
+    background-color: #EB455F;
+    height: 700px;
+    padding: 200px;
+    line-height: 3rem;
+    box-sizing: border-box;
+    color: white;
+
+}
+
+
+
+
+/* About Section  */
+#about {
+    color: black;
+    text-align: center;
+    background-color: #FCFFE7;
+    height: 690px;
+    padding-top: 8rem;
+    box-sizing: border-box;
+}
+
+#about div {
+
+    padding-top: 8rem;
+
+}
+
+#about div button {
+
+    margin-top: 8rem;
+    background-color: black;
+    padding: 3px;
+    margin-left: 10px;
+    color: white;
+    margin-right: 10px;
+
+}
+
+/* Skills Section  */
