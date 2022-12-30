@@ -1,85 +1,319 @@
 * {
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
 }
 
-a {
-    text-decoration: none;
-    color: white;
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+    /* _______________NAVIGATION Section________________*/
+    .nav {
+        background-color: black;
+        color: white;
+    }
+
+    p.logo {
+        text-align: center;
+        padding: 10px;
+    }
+
+    div.menu {
+        text-align: center;
+        padding-bottom: 10px;
+    }
+
+    a {
+        text-decoration: none;
+        padding: 5px;
+        color: white;
+    }
+
+    /* _______________HOME Section________________*/
+    #home {
+        background-color: #FF2E63;
+        box-sizing: border-box;
+    }
+
+    div.intro {
+        text-align: center;
+        padding: 60px;
+        padding-bottom: 20px;
+    }
+
+    img {
+        margin: auto;
+        height: 100vh;
+        padding-left: 150px;
+    }
+
+    /* _______________About Section________________*/
+    #about {
+        height: 1600px;
+        background-color: #252A34;
+        color: white;
+    }
+
+    #about h2 {
+        text-align: center;
+        padding: 80px;
+    }
+
+    #about p {
+        text-align: justify;
+        padding-left: 100px;
+        padding-right: 100px;
+        padding-bottom: 0px;
+    }
+
+    /* _________Experience Section_______*/
+    #experience {
+        height: 500px;
+        background-color: #EAEAEA;
+        color: black;
+    }
+
+    #experience h2 {
+        text-align: center;
+        padding: 80px;
+    }
+
+    #experience h3 {
+        padding-left: 100px;
+        padding-bottom: 30px;
+    }
+
+    #experience p {
+        text-align: justify;
+        padding-left: 100px;
+        padding-right: 100px;
+        padding-bottom: 0px;
+    }
+
+    /* _________Projects Section_______*/
+    #projects {
+
+        background-color: #FF2E63;
+        padding-bottom: 50px;
+    }
+
+    #projects h2 {
+
+        text-align: center;
+        padding: 40px;
+        color: #EAEAEA;
+    }
+
+
+    .card1,
+    .card2,
+    .card3,
+    .card4,
+    .card5,
+    .card6 {
+        background-color: white;
+        /* padding: auto; */
+        width: 300px;
+        height: 200px;
+        margin: 60px;
+        margin-left: 130px;
+        border-radius: 30px;
+        text-align: center;
+        padding: 20px;
+    }
+
+    /* _________Skills Section_______*/
+
+    #skills {
+        background-color: #F0E9D2;
+        height: 600px;
+        text-align: center;
+    }
+
+    #skills h2 {
+        padding: 80px;
+    }
+
+    #skills ul {}
+
+    #skills ul li {
+        padding-top: 10px;
+    }
 }
 
-/* Navigation bar */
-#nav {
-    display: flex;
-    justify-content: flex-end;
-    height: 30px;
-    align-items: center;
-    background-color: rgba(0, 7, 3, 0.829);
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {}
+
+@media only screen and (min-width: 985px) {
+
+    /* ______________________Navigation Section_____________________________*/
+    div.nav {
+        background-color: rgb(6, 6, 6);
+        height: 50px;
+        display: flex;
+        flex-direction: row;
+        padding-top: 15px;
+        box-sizing: border-box;
+    }
+
+    p.logo {
+        position: relative;
+        left: 0px;
+        color: white;
+        padding-left: 20px;
+    }
+
+    div.menu {
+        position: absolute;
+        right: 0px;
+        padding: 0px 20px;
+    }
+
+    a {
+        color: white;
+        text-decoration: none;
+        padding: 10px;
+    }
+
+    /* ______________________Home Section_____________________________*/
+    #home {
+        background-color: #08D9D6;
+        height: 100vh;
+        width: 100vw;
+        display: flex;
+        flex-direction: row;
+    }
+
+    div.intro {
+        text-align: center;
+        margin-top: 300px;
+        margin-left: 100px;
+        line-height: 2rem;
+
+    }
+
+    img {
+        height: 100vh;
+        position: absolute;
+        right: 30px;
+    }
+
+    /* ______________________About Section_____________________________*/
+    #about {
+        height: 1000px;
+        background-color: #252A34;
+        color: white;
+    }
+
+    #about h2 {
+        text-align: center;
+        padding: 80px;
+    }
+
+    #about p {
+        text-align: justify;
+        padding-left: 100px;
+        padding-right: 100px;
+        padding-bottom: 0px;
+    }
+
+    /* ______________________Experience Section_____________________________*/
+    #experience {
+        height: 400px;
+        background-color: #EAEAEA;
+        color: black;
+    }
+
+    #experience h2 {
+        text-align: center;
+        padding: 80px;
+    }
+
+    #experience h3 {
+        padding-left: 100px;
+        padding-bottom: 30px;
+    }
+
+    #experience p {
+        text-align: justify;
+        padding-left: 100px;
+        padding-right: 100px;
+        padding-bottom: 0px;
+    }
+
+    /* ______________________Projects Section_____________________________*/
+    #projects {
+
+        height: 1300px;
+        background-color: #FF2E63;
+        box-sizing: border-box;
+    }
+
+    #projects h2 {
+
+        text-align: center;
+        padding: 80px;
+        color: #EAEAEA;
+    }
+
+    .cards1,
+    .cards2 {
+        display: flex;
+        flex-direction: row;
+
+    }
+
+    .card1,
+    .card2,
+    .card3,
+    .card4,
+    .card5,
+    .card6 {
+        background-color: white;
+        /* padding: auto; */
+        width: 400px;
+        height: 300px;
+        margin: 80px;
+        border-radius: 30px;
+        text-align: center;
+        padding: 40px;
+    }
+
+    /* ______________________Skills Section_____________________________*/
+    #skills {
+        background-color: #F0E9D2;
+        height: 300px;
+    }
+
+    #skills h2 {
+
+        text-align: center;
+        padding: 80px;
+    }
+
+    #skills ul {
+        display: flex;
+        flex-direction: row;
+        list-style: none;
+        border: 2px solid black;
+        width: fit-content;
+        margin: auto;
+    }
+
+    #skills ul li {
+        padding: 20px;
+        align-items: center;
+    }
+
+    /* ______________________Course Section_____________________________*/
+
+
 }
-
-#nav h3 {
-
-    position: relative;
-    right: 300px;
-    color: white;
-}
-
-#nav .item2 {
-    display: flex;
-    justify-content: space-evenly;
-    width: 60%;
-}
-
-#nav .item2 a {
-
-    text-decoration: none;
-    color: white;
-}
-
-/* Home Section  */
-#home {
-
-    background-color: #EB455F;
-    height: 700px;
-    padding: 200px;
-    line-height: 3rem;
-    box-sizing: border-box;
-    color: white;
-
-}
-
-
-
-
-/* About Section  */
-#about {
-    color: black;
-    text-align: center;
-    background-color: #FCFFE7;
-    height: 690px;
-    padding-top: 8rem;
-    box-sizing: border-box;
-}
-
-#about div {
-
-    padding-top: 8rem;
-
-}
-
-#about div button {
-
-    margin-top: 8rem;
-    background-color: black;
-    padding: 3px;
-    margin-left: 10px;
-    color: white;
-    margin-right: 10px;
-
-}
-
-/* Skills Section  */
