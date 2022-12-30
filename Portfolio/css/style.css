@@ -4,7 +4,7 @@
 }
 
 /* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 400px) {
 
     /* _______________NAVIGATION Section________________*/
     .nav {
@@ -19,7 +19,7 @@
 
     div.menu {
         text-align: center;
-        padding-bottom: 10px;
+        padding-bottom: 25px;
     }
 
     a {
@@ -42,13 +42,14 @@
 
     img {
         margin: auto;
-        height: 100vh;
+        height: 80vh;
+        margin-left: 70px;
 
     }
 
     /* _______________About Section________________*/
     #about {
-        height: 1600px;
+        height: 1800px;
         background-color: #252A34;
         color: white;
     }
@@ -60,9 +61,10 @@
 
     #about p {
         text-align: justify;
-        padding-left: 100px;
+        padding: 20px;
+        /* padding-left: 100px;
         padding-right: 100px;
-        padding-bottom: 0px;
+        padding-bottom: 0px; */
     }
 
     /* _________Experience Section_______*/
@@ -78,21 +80,19 @@
     }
 
     #experience h3 {
-        padding-left: 100px;
-        padding-bottom: 30px;
+        padding-left: 20px;
+        padding-bottom: 10px;
     }
 
     #experience p {
         text-align: justify;
-        padding-left: 100px;
-        padding-right: 100px;
-        padding-bottom: 0px;
+        padding: 20px;
     }
 
     /* _________Projects Section_______*/
     #projects {
 
-        background-color: #FF2E63;
+        background-color: #08D9D6;
         padding-bottom: 50px;
     }
 
@@ -112,10 +112,10 @@
     .card6 {
         background-color: white;
         /* padding: auto; */
-        width: 300px;
-        height: 200px;
+        width: 250px;
+        height: 300px;
         margin: 60px;
-        margin-left: 130px;
+        margin-left: 60px;
         border-radius: 30px;
         text-align: center;
         padding: 20px;
